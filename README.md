@@ -5,7 +5,7 @@ Shared repo for some physicists to code up some Boltzmann Brains. I'm thinking w
 2) Use a neural nets (feed forward, CNN, Transformers) to classify digits numerically.
 3) Use transformer networks to predict tokens (letters/words/integers) in sequential data.
 
-But first, some best practices for version control so you can speak the langauge of industry data science and ML. 
+But first, some best practices for version control so we can speak the langauge of industry data science and ML. 
 
 ## Step 1: Setting up git
 In order to use the full functionality of GitHub, we first need to setup Git. First need to ask Paolo what machine he uses (PC, Mac, etc.)
