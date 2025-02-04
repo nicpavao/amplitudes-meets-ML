@@ -19,4 +19,11 @@ Best practices for version control when working in a group. Forking a branch, pu
 ## Step 4: Setting up virtual environments
 Sometimes project collaborators will have different versions of the project depencies downloaded on their local machine. For this reason, it is useful to set up a virtual environment where dependencies (like PyTorch, MatplotLib, etc.) can be accessed locally, and shared across machines.
 
+```
+python3 -m venv venv
+source venv/bin/activate
+pip3 install requirements.txt
+```
+requirements.txt file is just a line by line list of libraries
+
 ## Definitions
