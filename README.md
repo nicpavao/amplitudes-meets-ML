@@ -50,9 +50,6 @@ r e682d5d First commit
 f 802af36 second
 f 967ca3e third
 ```
-Exit vim using:
-- esc
-- :wq
 7. Resolve all merge conflicts. I recommend using VSCode to resolve all the diffs.
 8. Push your changes to github
 ```
