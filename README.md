@@ -56,13 +56,16 @@ f 967ca3e third
 git push origin your-branch-name
 ```
 9. Open github and make a pull request
+
+In some cases, one of us might decide to make a comment on a pull request before merging. Maybe there's a bug,
+or something was overwritten. If that happens, then...
+
 10. If addressing comments add a new commit to your branch
 ```
 git add .
 git commit -m "Address review comments"
 ```
 11. Push your branch to github using force push (only use this on your feature branch and make sure your local changes are correct before overwriting the branch in github)
-
 ```
 git push origin your-branch-name -f
 ```
