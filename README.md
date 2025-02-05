@@ -8,10 +8,39 @@ Shared repo for some physicists to code up some Boltzmann Brains. I'm thinking w
 But first, some best practices for version control so we can speak the langauge of industry data science and ML. 
 
 ## Step 1: Setting up git
-In order to use the full functionality of GitHub, we first need to setup Git... and even before that, need to ask Paolo what machine he uses (PC, Mac, etc.)
+In order to use the full functionality of GitHub, we first need to setup git... To do this we will install homebrew, which is a package manager for MacOS. Copy and paste the following into your terminal:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Now that brew is installed, use the brew command to install git:
+```
+brew install git
+```
+Verify that version is at least 2.28 by running
+```
+git --version
+```
+I'll assume that your package manager installed at least 2.28 version of git. If not, let's chat.
 
-## Step 2: Setting up SSH key
-When hosting a shared repository on GitHub, it is useful to setup a SSH cryptographic key, so you don't have to re-enter your password all the time.
+## Step 2: Configuring git with GitHub, and setting up SSH key
+When hosting a shared repository on GitHub, it is useful to setup a SSH cryptographic key, so you don't have to re-enter your password all the time. Let's configure out version control software, git, with the git enabled online platform GitHub. First, enter your username and email for GitHub:
+```
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+```
+Now change the default branch to main, and change the reconciliation behavior to merging:
+```
+git config --global init.defaultBranch main
+git config --global pull.rebase false
+```
+Finally, for Mac users, run the following commands:
+```
+echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+```
+We're almost done. To avoid entering your username and password everytime you want to pull from the global main branch, we are going to set up an SSH key. Instead of writing it all out here, just checkout TheOdinProject (TOP) guided instructions here: https://www.theodinproject.com/lessons/foundations-setting-up-git#step-23-create-an-ssh-key
+
+Now we're ready to start coding!
 
 ## Step 3: Git Clone, Push, Pull, etc.
 Best practices for version control when working in a group. Forking a branch, pull requests, etc.
