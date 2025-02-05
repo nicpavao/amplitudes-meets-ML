@@ -21,7 +21,7 @@ Follow these steps to create a branch and make changes. This will result in mini
 ```
 git checkout main
 git pull
-git checkout -b username/feature #ex: dennis/new-derivative-model
+git checkout -b username/feature #ex: nic/dev-branch
 ```
 2. Make your changes on your branch
 3. Commit your changes
