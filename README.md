@@ -1,8 +1,8 @@
 # amplitudes-meets-ML
 Shared repo for some physicists to code up some Boltzmann Brains. I'm thinking we just start with some simple projects:
 
-1) Use PyTorch to fit BRK.A ticker to an exponential curve?
-2) Use a neural nets (feed forward, CNN, Transformers) to classify digits numerically.
+1) ~~Use PyTorch to fit BRK.A ticker to an exponential curve?~~
+2) ~~Use a neural nets (feed forward, CNN, Transformers) to classify digits numerically.~~
 3) Use transformer networks to predict tokens (letters/words/integers) in sequential data.
 
 But first, some best practices for version control so we can speak the langauge of industry data science and ML. 
