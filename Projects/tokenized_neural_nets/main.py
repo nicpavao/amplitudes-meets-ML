@@ -1,4 +1,3 @@
-import torch.nn as nn
 import torch
 
 class EncoderDecoderModel(nn.Module):
