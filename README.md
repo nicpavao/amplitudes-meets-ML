@@ -78,7 +78,7 @@ Sometimes project collaborators will have different versions of the project depe
 ```
 python3 -m venv venv
 source venv/bin/activate
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 requirements.txt file is just a line by line list of libraries
 
