@@ -70,7 +70,7 @@ git commit -m "Address review comments"
 git push origin your-branch-name -f
 ```
 12. Repeat until PR review finished
-13. Merge PR using squash commit so all commits are merged into one for readabilitygit 
+13. Merge PR using squash commit so all commits are merged into one.
 
 ## Step 4: Setting up virtual environments
 Sometimes project collaborators will have different versions of the project depencies downloaded on their local machine. For this reason, it is useful to set up a virtual environment where dependencies (like PyTorch, MatplotLib, etc.) can be accessed locally, and shared across machines.
