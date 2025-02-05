@@ -51,7 +51,7 @@ f 802af36 second
 f 967ca3e third
 ```
 7. Resolve all merge conflicts. I recommend using VSCode to resolve all the diffs.
-8. Push your changes to github
+8. Push your changes (on the dev branch) to github (which has been locally rebased onto the main branch)
 ```
 git push origin your-branch-name
 ```
