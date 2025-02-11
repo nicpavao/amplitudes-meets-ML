@@ -1,4 +1,4 @@
 import torch
 
-def devil_function():
-    print("this edit is made by the devil")
+def dev_function():
+    print("this edit is made by angelic developers")
