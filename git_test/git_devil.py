@@ -1,4 +1,4 @@
 import torch
 
 def devil_function():
-    pass
+    print("this edit is made by the devil")
