@@ -1,6 +1,4 @@
 torch
-matplotlib
-numpy
+matplotlibpwd
+numpy<2
 pandas
-random
-itertools
