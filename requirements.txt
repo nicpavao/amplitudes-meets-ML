@@ -1,4 +1,4 @@
 torch
-matplotlibpwd
+matplotlib
 numpy<2
 pandas
