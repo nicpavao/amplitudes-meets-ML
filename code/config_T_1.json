@@ -1,0 +1,28 @@
+{
+    "dataset_parameters": {
+      "primes_list": [3,5,7,11],
+      "number_samples": 5
+    },
+    "model_parameters": {
+      "model": "Seq2SeqTransformer",
+      "model_dimension": 64,
+      "number_heads": 4,
+      "number_encoder_layers": 2,
+      "number_decoder_layers": 2,
+      "dimension_feedforward": 128,
+      "dropout_rate": 0.1,
+      "source_vocab_size": 14,
+      "target_vocab_size": 12,
+      "positional_encoding_maximum_length": 500
+    },
+    "training_parameters": {
+      "learning_rate": 1e-3,
+      "batch_size": 32,
+      "number_epochs": 100,
+      "optimizer": "Adam"
+    },
+    "log_params": {
+      "experiment_name": "experiment_001",
+      "notes": "First experiment with Seq2SeqTransformer"
+    }
+  }
