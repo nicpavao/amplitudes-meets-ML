@@ -1,7 +1,7 @@
 {
     "dataset_parameters": {
       "primes_list": [3,5,7,11],
-      "number_samples": 5
+      "number_samples": 10000
     },
     "model_parameters": {
       "model": "Seq2SeqTransformer",
@@ -12,7 +12,7 @@
       "dimension_feedforward": 128,
       "dropout_rate": 0.1,
       "source_vocab_size": 14,
-      "target_vocab_size": 12,
+      "target_vocab_size": 13,
       "positional_encoding_maximum_length": 500
     },
     "training_parameters": {
@@ -24,5 +24,11 @@
     "log_params": {
       "experiment_name": "experiment_001",
       "notes": "First experiment with Seq2SeqTransformer"
+    },
+    "special_tokens": {
+      "PAD_TOKEN": 10,
+      "SOS_TOKEN": 11,
+      "EOS_TOKEN": 12,
+      "SEP_TOKEN": 13
     }
   }
